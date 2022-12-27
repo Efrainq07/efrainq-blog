@@ -1,0 +1,49 @@
+{
+  "name": "efrainq-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear --single"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-replace": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-polyfill-node": "^0.11.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "@bytemd/plugin-gfm": "^1.17.4",
+    "@milkdown/core": "^6.5.3",
+    "@milkdown/preset-commonmark": "^6.5.3",
+    "@milkdown/prose": "^6.5.3",
+    "@milkdown/theme-nord": "^6.5.3",
+    "@rodneylab/svelte-social-icons": "^0.0.24",
+    "@rollup/plugin-json": "^5.0.1",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "axios": "^1.2.0",
+    "buffer": "^6.0.3",
+    "ethers": "^5.7.2",
+    "ipfs-core": "^0.17.0",
+    "ipfs-http-client-lite": "^0.3.0",
+    "js-ipfs": "^0.0.301",
+    "marked": "^4.2.3",
+    "sirv-cli": "^2.0.0",
+    "svelte-navigator": "^3.2.2",
+    "svelte-simple-modal": "^1.4.5",
+    "svelte-web3": "^4.0.0",
+    "uuid": "^9.0.0",
+    "web3": "^1.8.1",
+    "web3modal": "^1.9.10"
+  }
+}
