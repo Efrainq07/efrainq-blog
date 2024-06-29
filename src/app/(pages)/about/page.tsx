@@ -13,7 +13,7 @@ export default function About() {
             <h1 className="font-semibold text-4xl lg:text-5xl mb-8 lg:pb-3">
                 About Me
             </h1>
-            <Image className="object-cover overflow-hidden rounded-full w-1/8 aspect-square object-top mb-10" alt="yo" src="/yo.jpeg" width={300} height={0}/>
+            <img className="object-cover overflow-hidden rounded-full w-1/8 aspect-square object-top mb-10" alt="yo" src="/yo.jpeg" width={300} height={0}/>
             <p className="font-medium text-xl text-justify md:text-2xl md:w-3/4 lg:text-2xl text-neutral-500">
                 I&apos;m currently on the Master&apos;s in Computer Science program at Tecnologico de Monterrey and I studied my bachelors in Mathematics at UNAM. I am interested in <b className="text-blue-500">Quantum Computing</b>, <b className="text-purple-500">Blockchain</b> and <b className="text-red-500">Artificial Intelligence</b>.
                 <br/>
