@@ -1,9 +1,3 @@
 [build]
   command = "yarn run build"
-  publish = ".next"
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+  publish = "out"
