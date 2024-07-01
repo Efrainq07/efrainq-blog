@@ -37,8 +37,9 @@ export default function Home() {
             `]}   stopped={false} startDelay={500} typeSpeed={30} backSpeed={100} onComplete={(self) => {self.cursor.remove()}}/>
           </p>
         </div>
-        <div className="flex md:flex-col justify-between md:w-1/4">
+        <div className="flex md:flex-col justify-between md:w-3/8">
           <div className="flex w-full flex-col text-3xl space-y-5 lg:text-5xl lg:space-y-10 text-blue-500 text-nowrap font-bold">
+            <Link href="/blog/1" className="text-2xl lg:text-4xl hover:underline text-green-500" key="Latest Post">Read my latest post</Link>
             { navigation_options.map(
               ({title, link}) => (
                 <Link href={link} className="hover:text-4xl lg:hover:text-6xl transition-all" key={title}>{title}</Link>

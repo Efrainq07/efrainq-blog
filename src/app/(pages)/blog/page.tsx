@@ -15,7 +15,7 @@ export default function About() {
                 Blog
             </h1>
             <div className="flex flex-col text-3xl space-y-5">
-                No posts yet!
+                <a href="blog/1" className="hover:underline hover:text-blue-300  text-blue-500 hover:cursor-pointer">Creating a (mostly) decentralized blog page with Lens Protocol</a>
             </div>
         </main>
     )

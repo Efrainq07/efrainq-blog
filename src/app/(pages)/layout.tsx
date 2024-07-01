@@ -1,7 +1,8 @@
 "use client"
 import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
-import "../globals.css";
+import "@/css/globals.css";
+import "@/css/prism.css";
 import RandomGeometryScene from "@/components/RandomGeometryScene";
 import {ReactTyped} from "react-typed";
 
@@ -31,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={garamond.className}>
         <div className="flex min-h-screen overflow-hidden max-md:px-0 flex-row max-md:flex-col-reverse max-md:justify-end px-10">
-          <div className="md:w-3/4 py-10">
+          <div className="md:w-3/4 pl-20 py-10 max-md:px-3">
           {children}
           </div>
           <div className="flex flex-col max-h-screen py-5 md:w-1/4">
