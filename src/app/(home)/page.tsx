@@ -31,9 +31,6 @@ export default function Home() {
           <p id="description" className="font-semibold text-2xl text-justify md:text-2xl sm:w-1/2 md:w-3/4 lg:w-1/2 lg:text-4xl text-neutral-500">
           <ReactTyped strings={[`
             Hi there, my name is Efrain and I am a software engineer and mathematician.
-            <br/>
-            <br/>
-            In this page you'll find some blog entries I've written about pretty much anything I find interesting.
             `]}   stopped={false} startDelay={500} typeSpeed={30} backSpeed={100} onComplete={(self) => {self.cursor.remove()}}/>
           </p>
         </div>
